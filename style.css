@@ -1,0 +1,102 @@
+body{
+    margin:0;    
+}
+.header-section{
+    background-image: url(images/donation-1.png);
+    background-color:rgb(131, 139, 57);
+    height:400px;    
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    background-attachment: fixed;   
+    opacity: 0.9;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom:100px;
+    
+}
+.container{
+    margin:0 auto;
+    margin-top:50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:white; 
+       
+}
+h1{
+    font-size:40px;
+    font-weight: 700px;
+}
+p{
+    margin-bottom:60px;
+    text-align: center;     
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right,red,rgb(250, 120, 142));
+    margin-top:50px;
+    padding:7px 7px;
+    color:white;
+    border-radius: 2px;
+}
+.donation-section{
+    text-align: center;
+    padding:10px;
+    margin-left:20%;
+    margin-right:20%;
+}
+.do-grey{
+    color:grey
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;    
+}
+
+.amount-button{
+    text-decoration: none;
+    color:rgb(99, 98, 98);
+    font-weight: 50px;
+    font-size: 25px;
+    padding:20px;
+    margin:5px;
+    background-color:rgb(241, 241, 241);
+    border: 2px solid none;
+    border-radius: 5px;    
+}
+#diff-button{
+    background-color:rgb(252, 216, 209);
+    color:rgba(255, 121, 97, 0.952);
+    border:2px solid rgba(253, 109, 90, 0.945);
+}
+
+input{
+    width:100%;
+    padding:8px;
+    text-align: center;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: grey;
+    
+}
+
+.donate-button{
+    background-image: linear-gradient(to right,red,rgb(250, 120, 142));
+    margin-top:50px;
+    margin-left: 150px;
+    padding:10px 10px;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    text-align: center;
+    
+    
+}
+.donation-box{
+      
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
